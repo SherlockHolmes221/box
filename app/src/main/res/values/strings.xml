@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">推箱子</string>
+    <string name="rule">让小人随着你的指尖滑动吧!
+    请点击下方红色按钮查看APP具体说明。</string>
+    <string name="pass">恭喜你过关了</string>
+    <string name="ifContinue">要继续吗</string>
+    <string name="yes">下一关</string>
+    <string name="no">退出</string>
+    <string name="again">再来一遍</string>
+    <string name="back">后退一步(真的只是一步)</string>
+
+    <string name="empty"></string>
+
+    <string name="function2">水平有限，只有两关。</string>
+    <string name="function3">可以保存进度</string>
+    <string name="function1">菜单引用了github.com上源代码。</string>
+    <string name="function4">玩着玩着可能会崩，我也很绝望啊</string>
+
+
+
+
+
+</resources>

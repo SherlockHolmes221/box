@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="TopBar">
+        <attr name="title" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleBackground" format="color|reference"/>
+
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftBackground" format="color|reference"/>
+
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize" format="dimension"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="RightBackground" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SatelliteMenu">
+        <attr name="expandDuration" format="integer" />
+        <attr name="closeOnClick" format="boolean" />
+        <attr name="totalSpacingDegree" format="float" />
+        <attr name="satelliteDistance" format="dimension" />
+        <attr name="mainImage" format="reference" />
+    </declare-styleable>
+
+</resources>

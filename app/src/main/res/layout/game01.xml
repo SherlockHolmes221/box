@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/layout01"
+    android:layout_height="match_parent">
+
+    <com.android.move_box_game.TopBar
+    android:id="@+id/topBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    custom:leftBackground="@color/skyblue"
+    custom:leftText="Back"
+    custom:leftTextColor="@color/white"
+    custom:leftTextSize="8dp"
+    custom:RightBackground="@color/skyblue"
+    custom:rightText="More"
+    custom:rightTextColor="@color/white"
+    custom:rightTextSize="8dp"
+    custom:title="看好你哦"
+    custom:titleBackground="@color/pink"
+    custom:titleTextColor="@color/white"
+    custom:titleTextSize="10sp"
+    />
+
+
+
+    <com.android.move_box_game.GameView
+        android:id="@+id/gameView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/reSet"
+        android:text="重新开始"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/back"
+        android:text="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+
+
